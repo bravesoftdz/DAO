@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0ebqu3n0c9eznh0dg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TDataElement">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="100,180,114,129" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement.fIdelement" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement.fDescription" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement.fPrice" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement.fComponent" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TDataElement2">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,162,160" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement2.fIdelement" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement2.fDescription" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement2.fPrice" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TDataElement2.fComponent" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TDataElement2.AddNew(System.Integer,System.string,System.Integer,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TDataElementObjectList">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="191,1,301,98" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TDataElementObjectList.AddNew(System.Integer,System.string,System.Integer,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="511,1,202,191" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TConnection.ADOConnection" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TConnection.ADOQuery" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TConnection.DataSource" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.SetDataSource(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.GetDataSource()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.GetDataSet()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.create()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TConnection.destroy()" />
+    </reference>
+  </view>
+</nodeSet>
